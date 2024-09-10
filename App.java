@@ -1,34 +1,56 @@
 import java.util.Arrays;
 import java.util.Random;
+import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-
+suma(5, 6);
     }
 
     // Suma de dos números
     public static int suma(int a, int b) {
-        return 0;
+        return a + b
     }
 
     // Resta de dos números
     public static int resta(int a, int b) {
         return 0;
+         a =tec.nextInt();
+        System.out.println("Ingresar num1");
+         a =tec.nextInt();
+        System.out.println("Ingresar num2");
+        int suma = a - b;
+        System.out.println("La resta de ambos numeros es" a - b);
     }
 
     // Multiplicación de dos números
     public static int multiplicacion(int a, int b) {
         return 0;
+
+         a =tec.nextInt();
+        System.out.println("Ingresar num1");
+         
+         b =tec.nextInt(); 
+        System.out.println("Ingresar num2");
+        int suma= a*b;
+        System.out.println("La multiplicacion de ambos numeros es" a*b);
     }
 
     // División de dos números
     public static double division(int a, int b) {
         return (double) 2 / 2;
+      
+         a =tec.nextInt();
+        System.out.println("Ingresar num1");
+         b =tec.nextInt();
+        System.out.println("Ingresar num2");
+        double suma = (double) a / b;
     }
 
     // Máximo de dos números
     public static int max(int a, int b) {
         return 5;
+        
     }
 
     // Mínimo de dos números
